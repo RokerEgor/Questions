@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./assets/img/questions.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Вопросы ;)</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="coment">
+        <div class="one">
+          <p>Команда: <br /><span>{{ messageone }}</span></p>
+          <input v-model="messageone" placeholder="Капибара" />
+        </div>
+        <div class="two">
+          <p>Команда: <br /><span>{{ messagetwo }}</span></p>
+          <input v-model="messagetwo" placeholder="Мафиози" />
+        </div>
+      </div>
+      <div class="counter">
+        <div class="one">
+          <button class="plus" @click="counterone++">+</button>
+          <p class="numbr">{{ counterone }}</p>
+          <button class="plus" @click="counterone--">-</button>
+        </div>
+        <div class="two">
+          <button class="plus" @click="countertwo++">+</button>
+          <p class="numbr">{{ countertwo }}</p>
+          <button class="plus" @click="countertwo--">-</button>
+        </div>
+      </div>
+      <div class="buttons">
+        <a href="./assets/films.html" target="_blank" class="films"> Фильмы </a>
+        <a href="./assets/cartoons.html" target="_blank" class="animals">
+          Игры
+        </a>
+        <a href="./assets/countries.html" target="_blank" class="countries">
+          Страны
+        </a>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

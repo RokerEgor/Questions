@@ -1,0 +1,751 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.red {
+  background: red;
+}
+.green {
+  background: rgb(3, 216, 3);
+}
+.one .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.one .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 500px;
+  margin-top: 58px;
+}
+.one .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.one .buttons .btn-one {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.one .buttons .btn-two {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.one .buttons .btn-three {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.one .buttons .btn-for {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.two .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.two .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 821px;
+  margin-top: 58px;
+}
+.two .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.two .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.two .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.two .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.two .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.otvet{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+  margin-bottom: 21px;
+}
+.otvet h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+.hidden{
+  display: none;
+}
+.otvet-two{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-two h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.three .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.three .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 560px;
+  margin-top: 58px;
+}
+.three .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 117px;
+  margin-bottom: 21px;
+}
+.three .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.three .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.three .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.three .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-three{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+
+}
+.otvet-three h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.for .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.for .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 474px;
+  margin-top: 58px;
+}
+.for .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 102px;
+}
+.for .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.for .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.for .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.for .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-three{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-three h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.five .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.five .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 347px;
+  margin-top: 58px;
+}
+.five .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.five .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.five .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.five .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.five .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-three{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-three h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.otvet-five{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-five h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.six .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.six .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 610px;
+  margin-top: 58px;
+}
+.six .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.six .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.six .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.six .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.six .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-six{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-six h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.otvet-five h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.seven .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.seven .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 345px;
+  margin-top: 58px;
+}
+.seven .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.seven .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.seven .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.seven .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.seven .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-seven{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-seven h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.eight .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.eight .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 555px;
+  margin-top: 58px;
+}
+.eight .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.eight .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 35px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.eight .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.eight .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.eight .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-eight{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-eight h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.nine .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.nine .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 524px;
+  margin-top: 58px;
+}
+.nine .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.nine .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.nine .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.nine .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.nine .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 34px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-nine{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-nine h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+
+.ten .title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 850px;
+  margin-top: 30px;
+}
+.ten .questi-one {
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 477px;
+  margin-top: 58px;
+}
+.ten .buttons {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 210px;
+}
+.ten .buttons .btn-five {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.ten .buttons .btn-six {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.ten .buttons .btn-seven {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+.ten .buttons .btn-eight {
+  width: 239px;
+  height: 107px;
+  border: 3px solid black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.otvet-ten{
+  background: #000;
+  width: 477px;
+  height: 241px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  background: rgb(49, 211, 49);
+  box-shadow: 20px 10px 10px rgb(33, 138, 33);
+  animation: 0.5s show ease;
+}
+.otvet-ten h1{
+  color: rgb(255, 250, 250);
+  padding-top: 55px;
+  margin-left: 40px;
+  font-size: 45px;
+}
+.slick-track{
+  display: flex;
+}
+.slick-list{
+  overflow: hidden;
+}
+.slick-arrow.slick-prev{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  border: 0;
+}
+
+.slick-arrow.slick-next{
+  position: absolute;
+  top: 0;
+  right: 40px;
+  top: 500px;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  background: url('../img/arrow.png') 0 0 / 100% no-repeat;
+  border: none;
+}

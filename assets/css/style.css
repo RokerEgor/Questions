@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+#app {
+  margin-left: 110px;
+}
+.input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a {
+  text-decoration: none;
+}
+.coment {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 250px;
+}
+.coment .one {
+  margin-right: 300px;
+}
+.coment .one input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #555;
+  outline: none;
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+.coment .one input:focus {
+  border-color: #ff0000;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+.coment .one p {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.coment .one p span {
+  color: rgba(255, 0, 0, 0.829);
+}
+.coment .two p {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.coment .two p span {
+  color: rgba(0, 0, 255, 0.829);
+}
+.coment .two input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #555;
+  outline: none;
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+.coment .two input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.counter {
+  display: flex;
+  margin-top: 48px;
+}
+.counter .one {
+  display: flex;
+  font-size: 25px;
+  margin-left: 26%;
+  margin-top: 28px;
+}
+.counter .one .numbr {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.counter .one .plus {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: greenyellow;
+}
+.counter .two {
+  display: flex;
+  font-size: 25px;
+  margin-left: 22%;
+  margin-top: 28px;
+}
+.counter .two .numbr {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.counter .two .plus {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: greenyellow;
+}
+.buttons {
+  display: flex;
+  margin-left: 361px;
+  margin-top: 118px;
+}
+.films {
+  display: block;
+  padding-left: 44px;
+  padding-top: 28px;
+  width: 239px;
+  height: 107px;
+  background: blue;
+  color: white;
+  font-size: 37px;
+  font-weight: 500;
+  margin-right: 150px;
+  box-shadow: 10px 8px 5px rgba(0, 0, 255, 0.582);
+}
+.animals {
+  display: block;
+  padding-left: 70px;
+  padding-top: 23px;
+  width: 239px;
+  height: 107px;
+  background: green;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 150px;
+  box-shadow: 10px 8px 5px rgba(0, 128, 0, 0.582);
+}
+.countries {
+  display: block;
+  padding-left: 55px;
+  padding-top: 28px;
+  width: 239px;
+  height: 107px;
+  background: red;
+  color: white;
+  font-size: 37px;
+  font-weight: 500;
+  box-shadow: 10px 8px 5px rgba(255, 0, 0, 0.582);
+}
